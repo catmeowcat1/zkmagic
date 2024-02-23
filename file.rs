@@ -7,7 +7,6 @@ use sha3::{
     digest::{ExtendableOutput, Update, XofReader},
     Shake128,
 };
-
 pub type Commitment<C> = C;
 
 pub struct Ciphertext<C: CurveGroup> {
